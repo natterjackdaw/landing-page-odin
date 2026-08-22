@@ -1,22 +1,30 @@
 html {
-    font-family: "Chewy", "Helvetica", sans-serif;
+    font-family: "Helvetica", sans-serif;
 }
 
+body {
+    margin: auto;
+}
 
+.top {
+    background-color: #0c1618;
+    color: white;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Header elements */
 
 .header {
-    background-color: #0c1618;
-    color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 2px;
+    font-family: "Chewy", "Helvetica", sans-serif;
 }
 
 .logo img {
-    width: 2em;
+    width: 3em;
     border-radius: 50%;
 }
 
@@ -27,3 +35,50 @@ html {
     display: flex;
     gap: 36px;
 }
+
+/* The title under the header */
+
+.title {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title h1 {
+    font-family: "Chewy", "Helvetica", sans-serif;
+    font-size: 48px;
+    margin: 0;
+}
+
+/* TODO Re-size photo manually in GIMP */
+
+/* showing something is up with my divs i think... */
+.title-image {
+    overflow: hidden;
+    height: 20px;
+}
+
+.title img {
+    border-radius: 0.5em;
+}
+
+/* .title {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-image img {
+    border-radius: 5%;
+    align-self: flex-end;
+} */
