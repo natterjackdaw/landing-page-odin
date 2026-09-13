@@ -4,6 +4,8 @@ html {
 
 body {
     margin: auto;
+    color: black;
+    background-color: #faf4d3;
 }
 
 button {
@@ -88,8 +90,6 @@ button:hover {
 .photo-section {
     display: flex;
     flex-direction: column;
-    color: black;
-    background-color: #faf4d3;
     align-items: center;
     justify-content: center;
     padding: 0 0 4em 0;
@@ -132,7 +132,6 @@ h2 {
 /* Quote */
 
 .testimonials {
-    color: #faf4d3;
     background-color: #004643;
     padding: 2em 15em;
 }
@@ -140,10 +139,27 @@ h2 {
 .quote {
     font-size: 36px;
     font-family: "Chewy", "Helvetica", sans-serif;
+    color: #FFFFFF;
 }
 
 .quote-giver {
     font-size: 28px;
     text-align: right;
-    font-style: bold;
+    color: #faf4d3;
+}
+
+/* Call to action */
+
+.call-to-action {
+    margin: 4em 10em;
+    display: flex;
+    background-color: #90D7FF;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5em;
+    padding: 2em 1em;
+}
+
+.sign-up-text h3, p {
+    margin: 0;
 }
