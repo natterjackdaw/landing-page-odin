@@ -10,11 +10,11 @@ Decisions:
     * Frozen Lake #90D7FF
     * Cornsilk #faf4d3
 
-Access the webpage at (natterjackdaw.github.io/landing-page-odin)[https://natterjackdaw.github.io/landing-page-odin/]
+Access the webpage at [natterjackdaw.github.io/landing-page-odin](https://natterjackdaw.github.io/landing-page-odin/).
 
 ## Acknowledgements
 
-Obviously, I am thankful for everyone involved in [The Odin Project](ttps://www.theodinproject.com/) for all their free resources on getting started with Web Development.
+Obviously, I am thankful for everyone involved in [The Odin Project](https://www.theodinproject.com/) for all their free resources on getting started with Web Development.
 
 I created my first very bad pixel art, so I acknowledge that I have a lot to learn about many things. However, I would like to thank myself not for generating more awful AI slop even though manual slop probably is not much better!
 
