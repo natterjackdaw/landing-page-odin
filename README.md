@@ -4,9 +4,10 @@ Work for [The Odin Project](https://www.theodinproject.com/lessons/foundations-l
 
 Decisions:
 * I like corvids, so I decided to do a page as if Thor's Ravens had their own gossip website
-* I wanted to use a different colour palette ([link here](https://coolors.co/palette/0c1618-004643-faf4d3))
+* I wanted to use a different colour palette ([link here](https://coolors.co/0c1618-004643-90d7ff-faf4d3))
     * Ink Black #0c1618
     * Pine Teal #004643
+    * Frozen Lake #90D7FF
     * Cornsilk #faf4d3
 
 ## Acknowledgements

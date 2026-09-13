@@ -6,6 +6,15 @@ body {
     margin: auto;
 }
 
+button {
+    color: #faf4d3;
+    background-color: #004643;
+    /* border: #faf4d3 1px;
+    border-radius: 0.2em; */
+    padding: 0.5em 1em;
+    font-size: 1em;
+}
+
 .top {
     background-color: #0c1618;
     color: white;
@@ -36,6 +45,10 @@ body {
     gap: 36px;
 }
 
+.right-links a {
+    color: #90D7FF;
+}
+
 /* The title under the header */
 
 .title {
@@ -45,7 +58,7 @@ body {
     gap: 20px;
 }
 
-.title h1 {
+.title-text h1 {
     font-family: "Chewy", "Helvetica", sans-serif;
     font-size: 48px;
     margin: 0;
@@ -56,7 +69,7 @@ body {
 /* showing something is up with my divs i think... */
 .title-image {
     overflow: hidden;
-    height: 20px;
+    height: 15em;
 }
 
 .title img {
