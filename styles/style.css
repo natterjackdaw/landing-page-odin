@@ -1,0 +1,176 @@
+html {
+    font-family: "Helvetica", sans-serif;
+}
+
+body {
+    margin: auto;
+    color: black;
+    background-color: #faf4d3;
+}
+
+button {
+    /* color: #faf4d3; */
+    color: #004643;
+    background-color: #90D7FF;
+    border: solid #004643 2px;
+    border-radius: 10%;
+    padding: 0.5em 1em;
+    font-size: 1em;
+}
+
+button:hover {
+    color: #90D7FF;
+    background-color: #004643;
+    border: solid #90D7FF 2px;
+}
+
+.top {
+    background-color: #0c1618;
+    color: white;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header elements */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Chewy", "Helvetica", sans-serif;
+}
+
+.logo img {
+    width: 3em;
+    border-radius: 50%;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 24px;
+    display: flex;
+    gap: 36px;
+}
+
+.right-links a {
+    color: #90D7FF;
+}
+
+/* The title under the header */
+
+.title {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px;
+}
+.title-text button {
+    width: 15%;
+}
+
+.title-text h1 {
+    font-family: "Chewy", "Helvetica", sans-serif;
+    font-size: 48px;
+    margin: 0;
+}
+
+/* TODO Re-size photo manually in GIMP */
+
+/* showing something is up with my divs i think... */
+.title-image {
+    overflow: hidden;
+    height: 15em;
+}
+
+.title img {
+    border-radius: 0.5em;
+}
+
+/* Photos */
+
+.photo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 4em 0;
+
+}
+
+h2 {
+    font-family: "Chewy", "Helvetica", sans-serif;
+    font-size: 42px;
+}
+
+.photo-display {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.photo-frame {
+    /* height: 20em; */
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5em;
+}
+
+.photo-frame img {
+    object-fit: cover;
+    height: 14em;
+    width: 12em;
+    border: 5px solid #004643;
+    border-radius: 10%;
+}
+
+.photo-frame figcaption {
+    align-self: center;
+    text-align: center;
+}
+
+/* Quote */
+
+.testimonials {
+    background-color: #004643;
+    padding: 2em 15em;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: "Chewy", "Helvetica", sans-serif;
+    color: #FFFFFF;
+}
+
+.quote-giver {
+    font-size: 28px;
+    text-align: right;
+    color: #faf4d3;
+}
+
+/* Call to action */
+
+.call-to-action {
+    margin: 4em 10em;
+    display: flex;
+    background-color: #90D7FF;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5em;
+    padding: 2em 1em;
+    border-radius: 2em;
+}
+
+.sign-up-text h3, p {
+    margin: 0;
+}
