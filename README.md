@@ -10,6 +10,8 @@ Decisions:
     * Frozen Lake #90D7FF
     * Cornsilk #faf4d3
 
+Access the webpage at (natterjackdaw.github.io/landing-page-odin)[https://natterjackdaw.github.io/landing-page-odin/]
+
 ## Acknowledgements
 
 Obviously, I am thankful for everyone involved in [The Odin Project](ttps://www.theodinproject.com/) for all their free resources on getting started with Web Development.
