@@ -130,3 +130,20 @@ h2 {
 }
 
 /* Quote */
+
+.testimonials {
+    color: #faf4d3;
+    background-color: #004643;
+    padding: 2em 15em;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: "Chewy", "Helvetica", sans-serif;
+}
+
+.quote-giver {
+    font-size: 28px;
+    text-align: right;
+    font-style: bold;
+}
